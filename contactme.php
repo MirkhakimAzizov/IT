@@ -8,7 +8,7 @@
 
     $body = "<ul><li>Name: ".$name."</li><li>Phone: ".$phone."</li><li>Email: ".$email."</li><li>Message: ".$message."</li></ul>";
 
-    $status = mailfunction("azizov.mirkhakimjon@gmail.com", "Company", $body); //reciever
+    $status = mailfunction("sadobooks@gmail.com", "Company", $body); //reciever
     if($status)
         echo '<center><h1>Rahmat! Tez orada siz bilan bog\'lanamiz.</h1></center>';
     else
